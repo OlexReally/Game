@@ -1,0 +1,9 @@
+F:\VS programs\4 курс 2 семестр\Вгадувач\Вгадувач\bin\Debug\Вгадувач.exe.config
+F:\VS programs\4 курс 2 семестр\Вгадувач\Вгадувач\bin\Debug\Вгадувач.exe
+F:\VS programs\4 курс 2 семестр\Вгадувач\Вгадувач\bin\Debug\Вгадувач.pdb
+F:\VS programs\4 курс 2 семестр\Вгадувач\Вгадувач\obj\Debug\Вгадувач.csprojResolveAssemblyReference.cache
+F:\VS programs\4 курс 2 семестр\Вгадувач\Вгадувач\obj\Debug\Вгадувач.Form1.resources
+F:\VS programs\4 курс 2 семестр\Вгадувач\Вгадувач\obj\Debug\Вгадувач.Properties.Resources.resources
+F:\VS programs\4 курс 2 семестр\Вгадувач\Вгадувач\obj\Debug\Вгадувач.csproj.GenerateResource.Cache
+F:\VS programs\4 курс 2 семестр\Вгадувач\Вгадувач\obj\Debug\Вгадувач.exe
+F:\VS programs\4 курс 2 семестр\Вгадувач\Вгадувач\obj\Debug\Вгадувач.pdb
