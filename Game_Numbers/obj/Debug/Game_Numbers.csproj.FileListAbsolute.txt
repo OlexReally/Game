@@ -1,0 +1,27 @@
+D:\Вгадувач\Вгадувач\bin\Debug\Game_Numbers.exe.config
+D:\Вгадувач\Вгадувач\bin\Debug\Game_Numbers.exe
+D:\Вгадувач\Вгадувач\bin\Debug\Game_Numbers.pdb
+D:\Вгадувач\Вгадувач\obj\Debug\Game_Numbers.csprojResolveAssemblyReference.cache
+D:\Вгадувач\Вгадувач\obj\Debug\Вгадувач.Form1.resources
+D:\Вгадувач\Вгадувач\obj\Debug\Game_Numbers.Properties.Resources.resources
+D:\Вгадувач\Вгадувач\obj\Debug\Game_Numbers.csproj.GenerateResource.Cache
+D:\Вгадувач\Вгадувач\obj\Debug\Game_Numbers.exe
+D:\Вгадувач\Вгадувач\obj\Debug\Game_Numbers.pdb
+D:\Game_Numbers\Game_Numbers\bin\Debug\Game_Numbers.exe.config
+D:\Game_Numbers\Game_Numbers\obj\Debug\Game_Numbers.exe
+D:\Game_Numbers\Game_Numbers\obj\Debug\Game_Numbers.pdb
+D:\Game_Numbers\Game_Numbers\bin\Debug\Game_Numbers.exe
+D:\Game_Numbers\Game_Numbers\bin\Debug\Game_Numbers.pdb
+D:\Game_Numbers\Game_Numbers\obj\Debug\Game_Numbers.csprojResolveAssemblyReference.cache
+D:\Game_Numbers\Game_Numbers\obj\Debug\Вгадувач.Form1.resources
+D:\Game_Numbers\Game_Numbers\obj\Debug\Game_Numbers.Properties.Resources.resources
+D:\Game_Numbers\Game_Numbers\obj\Debug\Game_Numbers.csproj.GenerateResource.Cache
+F:\Git Repo\Game_Numbers\Game\Game_Numbers\bin\Debug\Game_Numbers.exe.config
+F:\Git Repo\Game_Numbers\Game\Game_Numbers\obj\Debug\Game_Numbers.exe
+F:\Git Repo\Game_Numbers\Game\Game_Numbers\obj\Debug\Game_Numbers.pdb
+F:\Git Repo\Game_Numbers\Game\Game_Numbers\bin\Debug\Game_Numbers.exe
+F:\Git Repo\Game_Numbers\Game\Game_Numbers\bin\Debug\Game_Numbers.pdb
+F:\Git Repo\Game_Numbers\Game\Game_Numbers\obj\Debug\Game_Numbers.csprojResolveAssemblyReference.cache
+F:\Git Repo\Game_Numbers\Game\Game_Numbers\obj\Debug\Вгадувач.Form1.resources
+F:\Git Repo\Game_Numbers\Game\Game_Numbers\obj\Debug\Game_Numbers.Properties.Resources.resources
+F:\Git Repo\Game_Numbers\Game\Game_Numbers\obj\Debug\Game_Numbers.csproj.GenerateResource.Cache

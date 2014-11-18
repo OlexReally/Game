@@ -7,3 +7,7 @@ F:\VS programs\4 курс 2 семестр\Вгадувач\Вгадувач\obj
 F:\VS programs\4 курс 2 семестр\Вгадувач\Вгадувач\obj\Debug\Вгадувач.csproj.GenerateResource.Cache
 F:\VS programs\4 курс 2 семестр\Вгадувач\Вгадувач\obj\Debug\Вгадувач.exe
 F:\VS programs\4 курс 2 семестр\Вгадувач\Вгадувач\obj\Debug\Вгадувач.pdb
+D:\Вгадувач\Вгадувач\bin\Debug\Вгадувач.exe.config
+D:\Вгадувач\Вгадувач\obj\Debug\Вгадувач.exe
+D:\Вгадувач\Вгадувач\obj\Debug\Вгадувач.pdb
+D:\Вгадувач\Вгадувач\bin\Debug\Game_Numbers.exe.config
