@@ -27,7 +27,7 @@ namespace Вгадувач
             Iterator = iter;
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)//кнопка "загадати число"
         {
             try
             {
@@ -45,7 +45,6 @@ namespace Вгадувач
 
                 button1.Visible = false;
                 button2.Visible = true;
-                //button3.Visible = true;
                 textBox1.Visible = true;
                 label1.Visible = true;
                 label2.Visible = false;
@@ -73,7 +72,8 @@ namespace Вгадувач
 
         private void Press1(object sender, KeyPressEventArgs e)
         {
-            if (e.KeyChar != 8 && (e.KeyChar < 48 || e.KeyChar > 57))
+            //чек на ввід символа - дозволено лише цифри 0,1,2...,9
+            if (e.KeyChar != 8 && (e.KeyChar < 48 || e.KeyChar > 57)) 
                 e.Handled = true;
         }
 
@@ -138,7 +138,7 @@ namespace Вгадувач
                     label6.ForeColor = Color.White;
                     label6.Text = "Різниця складає до " + Convert.ToInt32(0.5 * MaxNum) + " одиниць";
                 }
-                else//повний непопад
+                else//повне непопадання, ні один з 3 варіантів, > 50%
                 {
                     label6.BackColor = Color.Black;
                     label6.ForeColor = Color.White;
@@ -157,7 +157,7 @@ namespace Вгадувач
             }
         }
 
-        private void Reset()
+        private void Reset()//скидання в початкове положення
         {
             MaxNum = 0;
             Number = 0;
@@ -180,7 +180,6 @@ namespace Вгадувач
             label7.Visible = false;
             button1.Visible = true;
             button2.Visible = false;
-            //button3.Visible = false;
         }
 
         private void button3_Click(object sender, EventArgs e)//Заново
