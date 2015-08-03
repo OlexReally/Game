@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="80983292-330b-4a9c-804b-fbb6bb1ad7f2" name="UMLUseCaseDiagram1" linkedPackageId="f3e1fc46-7783-4c80-b4ad-d48101005e67" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="972c255a-780f-4849-b43b-285ceef50ee3">
+      <profileInstance Id="ddb1fcc2-fdb8-4ee3-b1cd-432cba5890a7" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="aee6ce69-85e0-464e-b062-4366b6e3dbc1">
+      <profileInstance Id="932d1afb-c0a7-4319-aa66-8c3b940ab951" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="1f3595f9-3758-4fa9-96cf-07132dfcca08" name="Гравець" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="65cf7a63-f282-4d31-857b-55e52be00481" />
+        <targetEnds>
+          <association Id="e3edb023-ab6e-46f9-b9aa-f4268d43fcf1" isDerived="false" sourceEndRoleName="Actor1" targetEndRoleName="Вибір діапазону чисел" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="835d2df5-b9f4-4ad3-b193-f1a6a0e8c7be" LastKnownName="Вибір діапазону чисел" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7e1453c9-4d6a-40c1-8546-3c3a55ca652d" name="Actor1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="6416d36b-4370-457f-8d14-8a7aed8d686b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="084b72f0-263f-407a-a62b-6dc81f5245e3" name="Вибір діапазону чисел" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="eccd6b98-3020-4c91-a9e6-195beeb5346a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="d3930064-9827-4f1e-8f1b-9a019df4a456" />
+          </association>
+          <association Id="6cd718c5-a8e8-41b5-8efb-87662d16de21" isDerived="false" sourceEndRoleName="Гравець" targetEndRoleName="Вихід з гри" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="312bf94e-5bf8-499e-b450-92fa9f4d8daa" LastKnownName="Вихід з гри" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="76b74580-39fd-4cbe-bab7-f29f56dd23c1" name="Гравець" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="89b0d21e-7773-4c35-9080-64ec668ff68b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="61cfe187-0c52-4407-8616-58cca5284d4b" name="Вихід з гри" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="5bd55105-7dab-49d8-b585-65437d473079" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="8597b6a7-03b2-4915-b5f4-323e5ef92382" />
+          </association>
+          <association Id="36ed9e81-7992-4ee1-b295-26e1bb2d49a6" isDerived="false" sourceEndRoleName="Гравець" targetEndRoleName="Рестарт гри" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="49fc6fee-9b7d-4dbd-8d65-d4c9d2e2e4a2" LastKnownName="Рестарт гри" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="bd6e6aa0-9655-4c27-901f-74829fc5b594" name="Гравець" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="1cedd47b-68f1-4723-bc7f-2a2633fed7e9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0bc95226-7f94-4cb4-9806-b91229bfe365" name="Рестарт гри" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="66610bca-2834-49ae-ae10-3794a40739ad" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="8213d834-9ede-43fa-a0a1-c95f6fa7db90" />
+          </association>
+          <association Id="c0933cf1-85c2-4412-bd18-358819c79dd4" isDerived="false" sourceEndRoleName="Гравець" targetEndRoleName="Допомога" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="d8b8af70-7136-4730-b940-8af9ccc9c8a8" LastKnownName="Допомога" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="cad2e285-0490-44ad-85c4-1eeacc223e0c" name="Гравець" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="829f9041-6d34-4472-a25e-778fafb33d8d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c27f4eca-ea22-41fd-83a7-4a5f731ba251" name="Допомога" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="3003641e-0a6a-4c4e-85cb-d37773963510" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="710fd7ca-5729-4225-954b-64a436b86280" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="835d2df5-b9f4-4ad3-b193-f1a6a0e8c7be" name="Вибір діапазону чисел" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="8f65abe8-e992-4228-bfef-0c0a38c5fc28" />
+        <suppliersInternal>
+          <dependency Id="fd56e955-b37e-4c55-94c0-d548e04c5d0b">
+            <useCaseMoniker Id="0f8f3524-32ed-4226-821e-d1e4832b42e1" LastKnownName="Перегляд підказок" />
+            <elementDefinition Id="a7098385-e7b4-4336-bdd9-a8dc33951628" />
+          </dependency>
+          <dependency Id="9274f1e1-f1e5-466d-81a1-111735a445d8">
+            <useCaseMoniker Id="71920ac1-f198-4969-a3c5-067d819aeeb7" LastKnownName="Вибір  довільного числа" />
+            <elementDefinition Id="d3c777d8-6caf-4a28-8e0a-c7c027a745d0" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="49fc6fee-9b7d-4dbd-8d65-d4c9d2e2e4a2" name="Рестарт гри" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ceb84bac-96dc-49ee-ab56-771235de4e3f" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="312bf94e-5bf8-499e-b450-92fa9f4d8daa" name="Вихід з гри" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="eb414719-7efc-401f-ae56-69ae651d7f7c" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="d8b8af70-7136-4730-b940-8af9ccc9c8a8" name="Допомога" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5a65acce-669d-4221-b688-0207a0b82a3a" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="0f8f3524-32ed-4226-821e-d1e4832b42e1" name="Перегляд підказок" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="efa35535-434d-4f54-b8ce-082a21f09e9a" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="71920ac1-f198-4969-a3c5-067d819aeeb7" name="Вибір  довільного числа" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1f326287-54e6-471b-a0aa-e7212707e94d" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="f3e1fc46-7783-4c80-b4ad-d48101005e67" name="ModelingProject1">
+    <elementDefinition Id="1ca74390-1931-45e7-b9ad-18bc79c6ed43" />
+  </package>
+</useCaseModelRoot>
